@@ -16,7 +16,7 @@
 	<packaging>pom</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		<openapi.config.version>1.0.0-SNAPSHOT</openapi.config.version>
 		<common.utils.version>1.0.0-SNAPSHOT</common.utils.version>
 		<exception.handler.version>1.0.0-SNAPSHOT</exception.handler.version>
