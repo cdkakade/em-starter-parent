@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.4</version>
+        <version>2.7.7</version>
         <relativePath/>
         <!-- lookup parent from repository -->
     </parent>
@@ -22,6 +22,7 @@
         <common.utils.version>1.0.0-SNAPSHOT</common.utils.version>
         <exception.handler.version>1.0.0-SNAPSHOT</exception.handler.version>
         <spring-cloud.version>2021.0.5</spring-cloud.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -106,6 +107,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <image>
+                        <name>expensemanager/${project.artifactId}</name>
+                    </image>
+                </configuration>
             </plugin>
         </plugins>
         <resources>
