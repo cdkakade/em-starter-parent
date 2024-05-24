@@ -19,6 +19,7 @@
 		<java.version>17</java.version>
 		<openapi.config.version>1.0.0-SNAPSHOT</openapi.config.version>
 		<common.utils.version>1.0.0-SNAPSHOT</common.utils.version>
+		<exception.handler.version>1.0.0-SNAPSHOT</exception.handler.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -83,6 +84,12 @@
 			<groupId>expense.manager</groupId>
 			<artifactId>mcro-common-utils</artifactId>
 			<version>${common.utils.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>expense.manager</groupId>
+			<artifactId>mcro-exception-handler</artifactId>
+			<version>${exception.handler.version}</version>
 		</dependency>
 
 	</dependencies>
